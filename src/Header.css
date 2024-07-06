@@ -1,0 +1,177 @@
+header {
+  background: #f5f5f5;
+  padding: 2rem 4rem;
+  position: sticky;
+  top: 0;
+}
+
+.header-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ham,
+.notham {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.logo p {
+  font-size: 2rem;
+  color: #001f3f;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart ion-icon {
+  font-size: 2.5rem;
+  color: #001f3f;
+}
+
+.cart .count {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 1.2rem;
+  width: 1.2rem;
+  font-size: 0.7rem;
+  color: white;
+  background-color: #ff4500;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2;
+}
+
+.header-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.category a {
+  color: #001f3f;
+  text-decoration: none;
+  padding-right: 1.5rem;
+  white-space: nowrap;
+}
+
+.category a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  width: 80%;
+  position: relative;
+}
+
+.search input {
+  width: 100%;
+  height: 35px;
+  outline: none;
+  border: #001f3f54 solid 1px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 0 1.5rem;
+}
+
+.search ion-icon {
+  position: absolute;
+  right: 1.5rem;
+  top: 7px;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    display: block;
+  }
+
+  .ham {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .notham {
+    display: none;
+  }
+
+  .ham .close ion-icon {
+    padding: 2rem 4rem;
+    font-size: 2.5rem;
+    color: #001f3f;
+  }
+
+  .ham-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+  .ham-links a {
+    color: #001f3f;
+    text-decoration: none;
+    padding-bottom: 1.5rem;
+  }
+
+  .ham-links a:hover {
+    text-decoration: underline;
+  }
+
+  .menu ion-icon {
+    font-size: 2.5rem;
+    color: #001f3f;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .logo p {
+    font-size: 1.5rem;
+    color: #001f3f;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .search {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .logo img {
+    height: 40px;
+  }
+
+  .logo p {
+    font-size: 1.2rem;
+    color: #001f3f;
+  }
+}
