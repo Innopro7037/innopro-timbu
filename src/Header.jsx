@@ -1,4 +1,4 @@
-import logo from '../public/timbu.svg'
+import logo from '/timbu.svg'
 import './Header.css'
 import { useState } from 'react'
 
@@ -26,7 +26,8 @@ const Header = () => {
           <div className="count">10</div>
         </div>
       </div>
-      <div className="header-down">
+    </header>
+    <div className="header-down">
         <div className="category">
           <a href="#best">Best Sales</a>
           <a href="#recommended">Recommendation</a>
@@ -36,8 +37,6 @@ const Header = () => {
           <ion-icon name="search-outline"></ion-icon>
         </div>
       </div>
-
-    </header>
     <div className={!open ? 'ham' : 'notham'}>
       <div className="close" onClick={handleClick}>
         <ion-icon name="close-outline"></ion-icon>

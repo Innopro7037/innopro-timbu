@@ -1,8 +1,9 @@
 header {
   background: #f5f5f5;
-  padding: 2rem 4rem;
+  padding: 1rem 4rem;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .header-up {
@@ -60,10 +61,11 @@ header {
 }
 
 .header-down {
+  background-color: #f5f5f5;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  padding: 1rem 4rem 2rem;
 }
 
 .category a {
@@ -100,6 +102,14 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
+  header {
+    padding: 1rem 2rem;
+  }
+
+  .header-down {
+    padding: 1rem 2rem 2rem;
+  }
+
   .menu {
     display: block;
   }
@@ -112,6 +122,7 @@ header {
     height: 100vh;
     width: 100%;
     background-color: #fff;
+    z-index: 999;
   }
 
   .notham {
@@ -119,7 +130,7 @@ header {
   }
 
   .ham .close ion-icon {
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
     font-size: 2.5rem;
     color: #001f3f;
   }
@@ -167,11 +178,29 @@ header {
 
 @media screen and (max-width: 640px) {
   .logo img {
-    height: 40px;
+    height: 30px;
   }
 
   .logo p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #001f3f;
+  }
+
+  .cart ion-icon {
+    font-size: 2rem;
+  }
+
+  .cart .count {
+    height: 1rem;
+    width: 1rem;
+    padding: 2px;
+  }
+
+  .menu ion-icon {
+    font-size: 2rem;
+  }
+
+  .ham .close ion-icon {
+    font-size: 2rem;
   }
 }

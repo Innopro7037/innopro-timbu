@@ -1,6 +1,7 @@
 .hero {
   display: grid;
   grid-template-columns: auto auto;
+  place-content: center;
   align-items: center;
   padding: 2rem 4rem;
 }
@@ -22,6 +23,10 @@ span {
 }
 
 @media screen and (max-width: 1024px) {
+  .hero {
+    padding: 2rem 2rem;
+  }
+
   .hero-text h1 {
     font-size: 3.5rem;
     line-height: 58px;
@@ -37,15 +42,15 @@ span {
 @media screen and (max-width: 840px) {
   .hero {
     grid-template-columns: auto;
-    padding: 2rem 4rem;
+    margin: auto;
   }
 
   .hero-text h1 {
     font-style: italic;
-    font-size: 2.5rem;
-    line-height: 40px;
-    margin-bottom: 2rem;
+    font-size: 1.5em;
+    line-height: 30px;
     text-align: center;
+    margin: 0 auto 2rem;
   }
 
   .hero-img {

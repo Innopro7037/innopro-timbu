@@ -1,3 +1,4 @@
+import Footer from './Footer'
 import Header from './Header'
 import Hero from './Hero'
 import Products from './Products'
@@ -10,6 +11,7 @@ function App() {
     <Header />
     <Hero />
     <Products />
+    <Footer />
     </>
   )
 }
