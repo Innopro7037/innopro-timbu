@@ -44,7 +44,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={b} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Versace</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -53,7 +53,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={c} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Patek Phillipe</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -62,7 +62,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={d} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Richard Mille</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -71,7 +71,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={e} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Hublot</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -80,7 +80,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={f} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Dolce & Gabbana</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -89,7 +89,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={g} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">DJ Milan</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -98,7 +98,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={h} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Rolex</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -113,7 +113,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={i} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Jacob & CO</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -122,7 +122,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={j} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Philipp Stein</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -131,7 +131,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={k} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Gucci</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -140,7 +140,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={l} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Mancheront</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -149,7 +149,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={m} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Rolex</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
@@ -158,7 +158,7 @@ const Products = () => {
             <div className="card">
                 <div className="card-img"><img src={n} alt="watch" /></div>
                 <div className="card-txt">
-                    <p className="name">Philipp Plein</p>
+                    <p className="name">Dolce & Gabbana</p>
                     <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>

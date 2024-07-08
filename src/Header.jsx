@@ -1,6 +1,8 @@
 import logo from '/timbu.svg'
 import './Header.css'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import CartPage from './CartPage'
 
 const Header = () => {
 
@@ -17,14 +19,18 @@ const Header = () => {
         <div className="menu" onClick={handleClick}>
           <ion-icon name="menu-outline"></ion-icon>
         </div>
+        <Link to='/'>
         <div className="logo">
           <img src={logo} alt="Timbu Logo" />
           <p>TIMBU STORE</p>
         </div>
-        <div className="cart">
-          <ion-icon name="cart-outline"></ion-icon>
-          <div className="count">10</div>
-        </div>
+        </Link>
+        
+          <div className="cart">
+          <Link to='/cart'><ion-icon name="cart-outline"></ion-icon></Link>
+            <div className="count"></div>
+          </div>
+          
       </div>
     </header>
     <div className="header-down">

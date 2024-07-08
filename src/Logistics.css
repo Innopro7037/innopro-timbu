@@ -1,0 +1,39 @@
+.logistics {
+  background-color: #001f3f;
+  color: #fff;
+  padding: 2rem 3rem;
+}
+
+.logs {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.log-txt {
+  margin-left: 0.7rem;
+}
+
+.log-txt h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+.log-txt p {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 640px) {
+  .logistics {
+    padding: 2rem 2rem;
+  }
+
+  .log-txt h4 {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  .log-txt p {
+    font-size: 0.5rem;
+  }
+}
