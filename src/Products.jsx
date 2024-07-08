@@ -22,14 +22,14 @@ const Products = () => {
             <p>View All</p>
         </div>
         <div className="brand">
-            <p>Versace</p>
-            <p>Philipp Plein</p>
-            <p>Rolex</p>
-            <p>DJ Milian</p>
-            <p>Hublot</p>
-            <p>Dolce & Gabanna</p>
-            <p>Patek Philippe</p>
-            <p>Richard Mille</p>
+            <p>Versace <ion-icon name="square-outline"></ion-icon></p>
+            <p>Philipp Plein <ion-icon name="square-outline"></ion-icon></p>
+            <p>Rolex <ion-icon name="square-outline"></ion-icon></p>
+            <p>DJ Milian <ion-icon name="square-outline"></ion-icon></p>
+            <p>Hublot <ion-icon name="square-outline"></ion-icon></p>
+            <p>Dolce & Gabanna <ion-icon name="square-outline"></ion-icon></p>
+            <p>Patek Philippe <ion-icon name="square-outline"></ion-icon></p>
+            <p>Richard Mille <ion-icon name="square-outline"></ion-icon></p>
         </div>
         <div className="cards">
             <div className="card">
