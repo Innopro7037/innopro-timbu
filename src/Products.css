@@ -54,7 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .card-txt {
@@ -123,7 +123,7 @@ button {
   }
 
   .card-txt {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
   }
 
   .card img {
