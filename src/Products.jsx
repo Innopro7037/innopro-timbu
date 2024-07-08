@@ -36,7 +36,7 @@ const Products = () => {
                 <div className="card-img"><img src={a} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Philipp Plein</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Aion Chrono 45mm</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -45,7 +45,7 @@ const Products = () => {
                 <div className="card-img"><img src={b} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Versace</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Nautilus 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -54,7 +54,7 @@ const Products = () => {
                 <div className="card-img"><img src={c} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Patek Phillipe</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Geneve</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -63,7 +63,7 @@ const Products = () => {
                 <div className="card-img"><img src={d} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Richard Mille</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Liena 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -72,7 +72,7 @@ const Products = () => {
                 <div className="card-img"><img src={e} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Hublot</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Pacer - 7700W</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -81,7 +81,7 @@ const Products = () => {
                 <div className="card-img"><img src={f} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Dolce & Gabbana</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">SPEC 3350nXL 3351 SET</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -90,7 +90,7 @@ const Products = () => {
                 <div className="card-img"><img src={g} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">DJ Milan</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Dweller Oyster</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -99,7 +99,7 @@ const Products = () => {
                 <div className="card-img"><img src={h} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Rolex</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">ECB-900DB</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -114,7 +114,7 @@ const Products = () => {
                 <div className="card-img"><img src={i} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Jacob & CO</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Chronography</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -123,7 +123,7 @@ const Products = () => {
                 <div className="card-img"><img src={j} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Philipp Stein</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">4810 Automatic Silver</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -132,7 +132,7 @@ const Products = () => {
                 <div className="card-img"><img src={k} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Gucci</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">DS7269</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -141,7 +141,7 @@ const Products = () => {
                 <div className="card-img"><img src={l} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Mancheront</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Evolution - Model 8</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -150,7 +150,7 @@ const Products = () => {
                 <div className="card-img"><img src={m} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Rolex</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Submariner</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
@@ -159,7 +159,7 @@ const Products = () => {
                 <div className="card-img"><img src={n} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Dolce & Gabbana</p>
-                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
+                    <p className="description">Storm xxi8</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>
