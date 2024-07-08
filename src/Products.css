@@ -7,6 +7,14 @@
   justify-content: space-between;
   color: #001f3f;
   align-items: center;
+  margin: 1rem 0;
+}
+
+.secti {
+  display: flex;
+  justify-content: space-between;
+  color: #001f3f;
+  align-items: center;
   margin: 3rem 0;
 }
 
@@ -46,6 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem 0;
 }
 
 .card-txt {

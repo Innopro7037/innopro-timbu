@@ -105,7 +105,7 @@ const Products = () => {
                 <button>Add to Cart</button>
             </div>
         </div>
-        <div className="sect">
+        <div className="secti">
             <h2>Recommendation</h2>
             <p>View All</p>
         </div>
