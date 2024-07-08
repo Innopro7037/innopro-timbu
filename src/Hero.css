@@ -13,6 +13,10 @@
   margin-right: 2rem;
 }
 
+.her-text {
+  display: none;
+}
+
 span {
   color: #ff4500;
 }
@@ -45,12 +49,21 @@ span {
     margin: auto;
   }
 
-  .hero-text h1 {
+  .her-text {
+    display: block;
+  }
+
+  .hero-text {
+    display: none;
+  }
+
+  .her-text h1 {
     font-style: italic;
     font-size: 1.7rem;
     line-height: 30px;
     text-align: center;
     margin: 0 auto 2rem;
+    font-weight: 500;
   }
 
   .hero-img {

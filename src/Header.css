@@ -12,6 +12,10 @@ header {
   align-items: center;
 }
 
+.header-up a {
+  text-decoration: none;
+}
+
 .ham,
 .notham {
   display: none;
