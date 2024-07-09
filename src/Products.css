@@ -87,6 +87,12 @@ button {
   color: #ff4500;
 }
 
+.card button:hover {
+  background-color: #ff4500;
+  border: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 1024px) {
   .products {
     padding: 2rem 2rem;
