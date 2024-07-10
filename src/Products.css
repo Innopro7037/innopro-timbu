@@ -102,11 +102,11 @@ button {
     padding: 0 0rem;
   }
 
-  .sect h2 {
+  .sect h2, .secti h2 {
     font-size: 1.2rem;
   }
 
-  .sect p {
+  .sect p, .secti p{
     font-size: 0.8rem;
   }
 
@@ -162,11 +162,11 @@ button {
 }
 
 @media screen and (max-width: 640px) {
-  .sect h2 {
+  .sect h2, secti h2 {
     font-size: 1rem;
   }
 
-  .sect p {
+  .sect p, .secti p {
     font-size: 0.6rem;
   }
 
