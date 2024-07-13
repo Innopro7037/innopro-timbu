@@ -1,9 +1,37 @@
+import { useState } from 'react'
 import './CartPage.css'
 import h from './assets/b.png'
 import Logistics from './Logistics'
 import { Link } from 'react-router-dom'
 
 const CartPage = () => {
+
+    const [quant, setQuant] = useState(1)
+    const [quant2, setQuant2] = useState(1)
+
+    const addQuant = () => {
+        if (quant > 0) {
+            setQuant(quant + 1)
+        }
+    }
+
+    const reduceQuant = () => {
+        if (quant > 1) {
+            setQuant(quant - 1)
+        }
+    }
+    const addQuant2 = () => {
+        if (quant2 > 0) {
+            setQuant2(quant2 + 1)
+        }
+    }
+
+    const reduceQuant2 = () => {
+        if (quant2 > 1) {
+            setQuant2(quant2 - 1)
+        }
+    }
+
   return (
     <>
     <div className="cart-page">
@@ -34,9 +62,9 @@ const CartPage = () => {
                     <div className="space-between">
                         <div className="remove"><ion-icon name="trash-outline"></ion-icon> REMOVE</div>
                         <div className="quantity">
-                            <div className="reduce"><ion-icon name="remove-outline"></ion-icon></div>
-                            <div className="quant">1</div>
-                            <div className="add"><ion-icon name="add-outline"></ion-icon></div>
+                            <div className="reduce" onClick={() => reduceQuant()}><ion-icon name="remove-outline"></ion-icon></div>
+                            <div className="quant">{quant}</div>
+                            <div className="add" onClick={() => addQuant()}><ion-icon name="add-outline"></ion-icon></div>
                         </div>
                     </div>
                 </div>
@@ -66,9 +94,9 @@ const CartPage = () => {
                     <div className="space-between">
                         <div className="remove"><ion-icon name="trash-outline"></ion-icon> REMOVE</div>
                         <div className="quantity">
-                            <div className="reduce"><ion-icon name="remove-outline"></ion-icon></div>
-                            <div className="quant">1</div>
-                            <div className="add"><ion-icon name="add-outline"></ion-icon></div>
+                            <div className="reduce"  onClick={() => reduceQuant2()}><ion-icon name="remove-outline"></ion-icon></div>
+                            <div className="quant">{quant2}</div>
+                            <div className="add" onClick={() => addQuant2()}><ion-icon name="add-outline"></ion-icon></div>
                         </div>
                     </div>
                 </div>
