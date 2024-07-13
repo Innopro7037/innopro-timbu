@@ -159,7 +159,7 @@ const Products = () => {
                 <div className="card-img"><img src={n} alt="watch" /></div>
                 <div className="card-txt">
                     <p className="name">Dolce & Gabbana</p>
-                    <p className="description">Storm xxi8</p>
+                    <p className="description">1879 Vintage Rose inspired by godfather, 40mm</p>
                     <p className="price">$1,799</p>
                 </div>
                 <button>Add to Cart</button>

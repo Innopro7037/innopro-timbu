@@ -46,7 +46,7 @@ const Checkout = () => {
             </div>
 
             <Link to='/'><button>Pay $1,255</button></Link>
-            <h4><ion-icon name="lock-closed-outline"></ion-icon> Payments are secured and encrypted</h4>
+            <h4><ion-icon name="lock-closed-outline"></ion-icon> Payments are secured and encrypted </h4>
         </div>
     </div>
     <Logistics />
