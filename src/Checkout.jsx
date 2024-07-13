@@ -30,7 +30,7 @@ const Checkout = () => {
                 <input type="text" placeholder='000'/>
                 </div>
             </div>
-            <div className="sum"><h3>Summary</h3></div>
+            <div className="sum"><h5>Summary</h5></div>
             <div className="space-between">
                 <p className="small">Subtotal</p>
                 <p className="price">$1,230</p>
